@@ -1,10 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
-import plotly as py
-from plotly.offline import download_plotlyjs,init_notebook_mode,plot,iplot
 import plotly.graph_objs as go
 import plotly.express as px
 from PIL import Image
@@ -310,6 +305,7 @@ fig_pkt.update_layout(barmode='group',
                       title_x = 0.5,
                       legend_title_text = "Jenis Pekerjaan Terdakwa"
                      )
+fig_pkt.update_xaxes(title_text = 'Tahun')
 st.plotly_chart(fig_pkt, use_container_width=True)
 st.caption('Sumber : https://www.antikorupsi.org/')
 
@@ -400,8 +396,7 @@ with isi3 :
     indeks pemerintahan memberikan gambaran terhadap Indonesia dalam satu kalimat.
     '''
 '''
-“Indonesia's policymakers have become dependent on siphoning state funds or receiving money from oligarchs to pay for 
-their political operations and have often prioritized their own monetary interests over those of the general public.”\n
+###### *“Indonesia's policymakers have become dependent on siphoning state funds or receiving money from oligarchs to pay for their political operations and have often prioritized their own monetary interests over those of the general public.”*\n
 Kalimat tersebut merupakan tamparan keras bagi pelaku politik di Indonesia. Seolah-olah bahwa hal tersebut merupakan 
 suatu yang lumrah untuk dilakukan di dunia politk. Sehingga perlu adanya edukasi menyeluruh bagi rakyat Indonesia 
 tentang bahaya korupsi dari dini. Dimulai dari diri sendiri, keluarga hingga masyarakat luas.
