@@ -330,32 +330,41 @@ hingga menghilangkan korupsi di negara ini.
 
 st.subheader('Transparansi')
 
-'''
-Transparansi ekonomi dan sumber daya manusia merupakan hal yang sangat dibutuhkan untuk memberantas tindak korupsi 
-terutama pada pihak pemegang kekuasaan. Dengan ini akan meningkatkan akuntabilitas pemegang kekuasaan dalam pengelolaan
-sumber daya negara dan sumber daya manusia serta memberikan akses terhadap informasi dan berbagai hal yang lebih 
-memberikan kesempatan masyarakat luas untuk berpartisipasi di bidang ekonomi. Salah satu organisasi anti-korupsi seperti
-Indonesia Corruption Watch (ICW) setiap tahun mengeluarkan laporan tindak korupsi di Indonesia yang mana hal ini dapat 
-menyadarkan masyarakat tentang bahaya korupsi bagi kelangsungan negara.
-'''
-
 img1 = Image.open('DATA/transparansi.jpg')
-st.image(img1)
 
+gambar1, isi1 = st.columns([1,3])
+
+with gambar1 :
+    st.image(img1)
+
+with isi1 :
+    '''
+    Transparansi ekonomi dan sumber daya manusia merupakan hal yang sangat dibutuhkan untuk memberantas tindak korupsi 
+    terutama pada pihak pemegang kekuasaan. Dengan ini akan meningkatkan akuntabilitas pemegang kekuasaan dalam pengelolaan
+    sumber daya negara dan sumber daya manusia serta memberikan akses terhadap informasi dan berbagai hal yang lebih 
+    memberikan kesempatan masyarakat luas untuk berpartisipasi di bidang ekonomi. Salah satu organisasi anti-korupsi seperti
+    Indonesia Corruption Watch (ICW) setiap tahun mengeluarkan laporan tindak korupsi di Indonesia yang mana hal ini dapat 
+    menyadarkan masyarakat tentang bahaya korupsi bagi kelangsungan negara.
+    '''
 st.subheader('Hukuman')
 
-'''
-Setiap tindak pidana korupsi memiliki hukuman yang diatur oleh undang-undang seperti UU Nomor 31 Tahun 1999 Tentang 
-Pemberantasan Tindak Pidana Korupsi. Tetapi kemudian, akan menjadi pertanyaan kenapa walaupun dengan adanya undang-undang tindak 
-pidana korupsi, korupsi masih terjadi di Indonesia. Dilansir dari Pusat Edukasi Antikorupsi KPK biaya kerugian negara 
-akibat korupsi masih jauh lebih besar dibandingkan hukuman bagi koruptor. Catatan KPK, dalam rentang tahun 2001 - 2012 
-kerugian negara akibat korupsi mencapai Rp. 168 triliun sedangkan hukuman final terhadap koruptor hanya menghasilkan 
-Rp. 15 triliun yang mana sisa Rp. 153 triliun ditanggung uang pajak rakyat. Jadi, secara tidak langsung justru rakyat banyak 
-menanggung kerugian yang diakibatkan oleh koruptor.
-'''
 img2 = Image.open('DATA/ditangkap.jpg')
-st.image(img2, caption='Fakhri Hilmi korupsi Jiwasraya dengan Kerugian Negara Rp. 16 Triliun')
 
+gambar2, isi2 = st.columns([1,3])
+
+with gambar2 :
+    st.image(img2, caption='Fakhri Hilmi korupsi Jiwasraya dengan Kerugian Negara Rp. 16 Triliun')
+
+with isi2 :
+    '''
+    Setiap tindak pidana korupsi memiliki hukuman yang diatur oleh undang-undang seperti UU Nomor 31 Tahun 1999 Tentang 
+    Pemberantasan Tindak Pidana Korupsi. Tetapi kemudian, akan menjadi pertanyaan kenapa walaupun dengan adanya undang-undang tindak 
+    pidana korupsi, korupsi masih terjadi di Indonesia. Dilansir dari Pusat Edukasi Antikorupsi KPK biaya kerugian negara 
+    akibat korupsi masih jauh lebih besar dibandingkan hukuman bagi koruptor. Catatan KPK, dalam rentang tahun 2001 - 2012 
+    kerugian negara akibat korupsi mencapai Rp. 168 triliun sedangkan hukuman final terhadap koruptor hanya menghasilkan 
+    Rp. 15 triliun yang mana sisa Rp. 153 triliun ditanggung uang pajak rakyat. Jadi, secara tidak langsung justru rakyat banyak 
+    menanggung kerugian yang diakibatkan oleh koruptor.
+    '''
 '''
 Hukuman bagi para koruptor juga tidak mampu memberikan efek jera dan tidak dapat merefleksikan dampak korupsi yang jauh 
 lebih besar. Vonis bagi koruptor memang sudah menjatuhkan hukuman seumur hidup dan hukuman denda, ditambah hukuman pengganti. Bahkan, 
@@ -370,17 +379,22 @@ pemegang kekuasaan dan rasa keadilan bagi masyarakat serta diharapkan dapat memb
 '''
 st.subheader('Revolusi Mental')
 
-'''
-Korupsi tidak hanya dilakukan oleh orang yang berada pada tingkat pemerintahan yang tinggi seperti Kementerian hingga 
-penegak hukum tetapi juga dilakukan pada tingkat pemerintahan yang rendah seperti desa. Dari grafik yang ada kita ketahui 
-bahwa mayoritas terdakwa korupsi berada pada lingkup perangkat desa dan daerah. Hal ini menunjukkan bahwa pada level 
-pemerintahan terendah saja korupsi sudah marak dilakukan. Salah satu lembaga riset Bertelsmann Stiftung yang merilis 
-Bertelsmann Transformation Index (BTI) yaitu penilaian terhadap suatu negara berdasarkan transformasi politik, ekonomi dan 
-indeks pemerintahan memberikan gambaran terhadap Indonesia dalam satu kalimat.
-'''
 img3 = Image.open('DATA/stop.png')
-st.image(img3)
 
+gambar3, isi3 = st.columns([1,5])
+
+with gambar3 :
+    st.image(img3)
+
+with isi3 :
+    '''
+    Korupsi tidak hanya dilakukan oleh orang yang berada pada tingkat pemerintahan yang tinggi seperti Kementerian hingga 
+    penegak hukum tetapi juga dilakukan pada tingkat pemerintahan yang rendah seperti desa. Dari grafik yang ada kita ketahui 
+    bahwa mayoritas terdakwa korupsi berada pada lingkup perangkat desa dan daerah. Hal ini menunjukkan bahwa pada level 
+    pemerintahan terendah saja korupsi sudah marak dilakukan. Salah satu lembaga riset Bertelsmann Stiftung yang merilis 
+    Bertelsmann Transformation Index (BTI) yaitu penilaian terhadap suatu negara berdasarkan transformasi politik, ekonomi dan 
+    indeks pemerintahan memberikan gambaran terhadap Indonesia dalam satu kalimat.
+    '''
 '''
 ###### *“Indonesia's policymakers have become dependent on siphoning state funds or receiving money from oligarchs to pay for their political operations and have often prioritized their own monetary interests over those of the general public.”*\n
 Kalimat tersebut merupakan tamparan keras bagi pelaku politik di Indonesia. Seolah-olah bahwa hal tersebut merupakan 
