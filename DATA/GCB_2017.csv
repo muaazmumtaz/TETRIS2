@@ -1,0 +1,17 @@
+Country,ISO3,Percentage of people who thought corruption increased in the previous 12 months [*],Percentage of public service users paid a bribe in the previous 12 months [*],Overall bribery rate [Bribery rates],Public schools [Bribery rates],Public clinics and health centres [Bribery rates],IDs [Bribery rates],Utilities [Bribery rates],Police [Bribery rates],Police [Results by institution],Government Officials [Results by institution],Members of Parliament [Results by institution],Increased [Has corruption level changes in the previous 12 months?],Decreased [Has corruption level changes in the previous 12 months?],Stayed the same [Has corruption level changes in the previous 12 months?],Don’t know/Refused to answer [Has corruption level changes in the previous 12 months?]
+Australia,AUS,34,3,3,4,2,1,0,1,5,12,12,34,5,57,4
+South Korea,KOR,50,2,2,5,3,1,1,3,41,69,79,50,17,29,3
+Japan,JPN,28,0,0,0,0,0,0,0,8,26,31,28,19,46,7
+Cambodia,KHM,35,37,37,10,19,30,6,11,51,44,26,35,28,31,6
+Indonesia,IDN,65,24,24,15,15,23,14,25,40,50,54,65,8,23,4
+Thailand,THA,14,33,33,35,0,17,0,46,78,56,73,14,43,44,0
+Vietnam,VNM,56,61,61,57,59,41,24,66,55,30,24,56,16,24,4
+Taiwan,TWN,26,5,5,8,5,0,6,1,18,16,49,26,23,44,7
+Hong Kong,HKG,46,1,1,2,2,0,not-asked,0,16,11,15,46,12,39,4
+China,CHN,73,21,21,29,18,16,not-asked,20,12,9,8,73,8,10,9
+India,IND,41,63,63,58,59,59,53,55,54,45,33,41,34,20,6
+Pakistan,PAK,35,25,25,9,11,38,61,75,76,60,55,35,28,31,6
+Myanmar,MMR,22,32,32,16,21,40,20,49,47,26,17,22,37,37,4
+Sri Lanka,LKA,21,10,10,14,3,9,7,24,31,17,36,21,40,34,5
+Malaysia,MYS,59,23,23,10,10,9,6,13,57,45,41,59,11,27,2
+Mongolia,MNG,not-asked,13,13,10,16,11,not-asked,16,28,39,46,not-asked,not-asked,not-asked,not-asked

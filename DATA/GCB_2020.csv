@@ -1,0 +1,18 @@
+Country,ISO3,Percentage of people who think government corruption is a big problem [*],Percentage of public service users paid a bribe in the previous 12 months [*],Overall bribery rate [Bribery rates],Public schools [Bribery rates],Public clinics and health centres [Bribery rates],IDs [Bribery rates],Utilities [Bribery rates],Police [Bribery rates],Police [Results by institution],Government Officials [Results by institution],Local government officers [Results by institution],Members of Parliament [Results by institution],Judges and Magistrates [Results by institution],Increased [Has corruption level changes in the previous 12 months?],Decreased [Has corruption level changes in the previous 12 months?],Stayed the same [Has corruption level changes in the previous 12 months?],Don’t know/Refused to answer [Has corruption level changes in the previous 12 months?]
+Japan,JPN,84,2,2,2,2,0,4,2,10,7,26,42,6,36,6,56,2
+South Korea,KOR,55,10,10,11,6,7,14,8,23,26,42,65,24,17,43,40,0
+Taiwan,TWN,90,17,17,5,9,29,28,67,17,19,20,17,15,38,21,41,0
+India,IND,89,39,39,22,24,41,32,42,46,41,46,42,20,47,27,23,3
+China,CHN,62,28,28,27,26,18,17,23,16,18,16,11,12,20,64,15,1
+Malaysia,MYS,71,13,13,8,5,9,11,17,30,28,18,36,13,39,32,27,2
+Indonesia,IDN,92,30,30,22,10,31,13,41,33,45,48,51,24,49,15,33,3
+Thailand,THA,88,24,24,21,10,16,25,47,37,30,39,39,12,55,14,30,1
+Philippines,PHL,86,19,19,18,12,15,21,18,13,18,19,12,9,24,64,13,0
+Myanmar,MMR,50,20,20,12,17,27,4,28,33,19,14,14,22,35,45,19,1
+Nepal,NPL,84,12,12,7,3,13,9,12,28,43,40,43,24,58,18,23,1
+Bangladesh,BGD,72,24,24,6,13,21,22,37,30,22,35,18,12,40,47,11,3
+Cambodia,KHM,33,37,37,18,24,40,29,38,14,8,9,6,11,12,55,29,4
+Mongolia,MNG,69,22,22,27,17,7,10,9,27,30,29,56,42,35,31,34,0
+Sri Lanka,LKA,79,16,16,13,5,13,11,24,39,32,40,44,10,52,19,26,3
+Vietnam,VNM,64,15,15,11,11,7,4,11,17,10,0,6,7,39,24,29,8
+Maldives,MDV,90,2,2,1,1,1,1,2,26,38,37,50,44,53,15,24,8
