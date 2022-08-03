@@ -284,7 +284,7 @@ fig_pkt.add_trace(go.Bar(
 fig_pkt.add_trace(go.Bar(
     x=korupsi['Tahun'],
     y=korupsi['Kementrian/Lembaga'],
-    name='Kementrian/Lembaga',
+    name='Kementerian/Lembaga',
     marker_color='pink'
 ))
 fig_pkt.add_trace(go.Bar(
@@ -311,9 +311,9 @@ st.caption('Sumber : https://www.antikorupsi.org/')
 
 '''
 Menurut pekerjaan terdakwa, perangkat desa dan perangkat daerah merupakan pelaku korupsi terbanyak disusul oleh swasta. Hal ini dikarenakan 
-perangkat desa dan perangkat daerah memiliki jumlah yang banyak dan tersebar di Indonesia. Pada BUMN/BUMD dan Kementrian/Lembaga terdapat peningkatan 
+perangkat desa dan perangkat daerah memiliki jumlah yang banyak dan tersebar di Indonesia. Pada BUMN/BUMD dan Kementerian/Lembaga terdapat peningkatan 
 jumlah terdakwa selama 3 tahun terakhir dan memiliki lonjakan jumlah terdakwa tertinggi pada tahun 2020 yaitu 196% pada 
-BUMN/BUMD dengan 47 terdakwa dari 24 terdakwa di tahun 2019 dan 300% pada Kementrian/Lembaga dengan 39 terdakwa dari 
+BUMN/BUMD dengan 47 terdakwa dari 24 terdakwa di tahun 2019 dan 300% pada Kementerian/Lembaga dengan 39 terdakwa dari 
 13 terdakwa di tahun 2019.
 '''
 
@@ -388,7 +388,7 @@ with gambar3 :
 
 with isi3 :
     '''
-    Korupsi tidak hanya dilakukan oleh orang yang berada pada tingkat pemerintahan yang tinggi seperti Kementrian hingga 
+    Korupsi tidak hanya dilakukan oleh orang yang berada pada tingkat pemerintahan yang tinggi seperti Kementerian hingga 
     penegak hukum tetapi juga dilakukan pada tingkat pemerintahan yang rendah seperti desa. Dari grafik yang ada kita ketahui 
     bahwa mayoritas terdakwa korupsi berada pada lingkup perangkat desa dan daerah. Hal ini menunjukkan bahwa pada level 
     pemerintahan terendah saja korupsi sudah marak dilakukan. Salah satu lembaga riset Bertelsmann Stiftung yang merilis 
