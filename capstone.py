@@ -330,7 +330,7 @@ hingga menghilangkan korupsi di negara ini.
 
 st.subheader('Transparansi')
 
-img1 = Image.open('Data/transparansi.jpg')
+img1 = Image.open('DATA/transparansi.jpg')
 
 gambar1, isi1 = st.columns([1,3])
 
@@ -348,7 +348,7 @@ with isi1 :
     '''
 st.subheader('Hukuman')
 
-img2 = Image.open('Data/ditangkap.jpg')
+img2 = Image.open('DATA/ditangkap.jpg')
 
 gambar2, isi2 = st.columns([1,3])
 
@@ -379,7 +379,7 @@ pemegang kekuasaan dan rasa keadilan bagi masyarakat serta diharapkan dapat memb
 '''
 st.subheader('Revolusi Mental')
 
-img3 = Image.open('Data/stop.png')
+img3 = Image.open('DATA/stop.png')
 
 gambar3, isi3 = st.columns([1,5])
 
