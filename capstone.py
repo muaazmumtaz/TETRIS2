@@ -8,6 +8,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 st.title("KORUPSI : Oknum atau Budaya")
 st.markdown('Oleh : Muhammad Atqa Adzkia Zaldi')
+st.markdown('Medan, 04 Agustus 2022')
 
 # BAB I
 st.header("BAB I : Korupsi di Dunia")
@@ -53,9 +54,9 @@ val_rendah = CPI_copy[f'CPI score {tahun_cpi}'].loc[CPI_copy[f'Rank {tahun_cpi}'
 
 cpi_tertinggi, cpi_terendah = st.columns(2)
 with cpi_tertinggi:
-    st.metric("Rank Pertama", tertinggi, val_tinggi, delta_color='off')
+    st.metric("Rank Pertama", tertinggi, val_tinggi, delta_color='normal')
 with cpi_terendah:
-    st.metric("Rank Terakhir", terendah, val_rendah, delta_color='off')
+    st.metric("Rank Terakhir", terendah, val_rendah, delta_color='inverse')
 
 # Fungsi CPI Global
 def cpi_global_plot(year = '2021'):
